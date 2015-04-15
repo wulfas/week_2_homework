@@ -697,13 +697,6 @@
       </div>
     </div>
 
-
-
-
-
-
-
-
     <a name="navs"></a>
     <div class="page-header">
       <h2>
@@ -714,12 +707,182 @@
       </h2>
     </div>
 
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Tabs</h2>
+        <ul class="nav nav-tabs">
+          <li class=""><a href="#home" data-toggle="tab" aria-expanded="false">Home</a></li>
+          <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">Profile</a></li>
+          <li class="disabled"><a>Disabled</a></li>
+          <li class="dropdown active">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+              Dropdown <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class=""><a href="#dropdown1" data-toggle="tab" aria-expanded="false">Action</a></li>
+              <li class="divider"></li>
+              <li class="active"><a href="#dropdown2" data-toggle="tab" aria-expanded="true">Another action</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+
+<div class="col-md-4">
+        <h3>Pills</h3>
+
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="nav nav-pills">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#navs">Profile</a></li>
+              <li class="disabled"><a href="#navs">Disabled</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#navs">
+                  Dropdown <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#navs">Action</a></li>
+                  <li><a href="#navs">Another action</a></li>
+                  <li><a href="#navs">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#navs">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row space-above">
+          <div class="col-md-12">
+            <ul class="nav nav-pills nav-stacked">
+              <li class="active"><a href="#navs">Home</a></li>
+              <li><a href="#navs">Profile</a></li>
+              <li class="disabled"><a href="#navs">Disabled</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#navs">
+                  Dropdown <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#navs">Action</a></li>
+                  <li><a href="#navs">Another action</a></li>
+                  <li><a href="#navs">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#navs">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <h3>Breadcrumbs</h3>
+
+        <ul class="breadcrumb">
+          <li class="active">Home</li>
+        </ul>
+
+        <ul class="breadcrumb">
+          <li><a href="#navs">Home</a></li>
+          <li class="active">Library</li>
+        </ul>
+
+        <ul class="breadcrumb">
+          <li><a href="#navs">Home</a></li>
+          <li><a href="#navs">Library</a></li>
+          <li class="active">Data</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Pagination</h3>
+
+        <ul class="pagination">
+          <li class="disabled"><a href="#">«</a></li>
+          <li class="active"><a href="#">1</a></li>
+          <li><a href="#navs">2</a></li>
+          <li><a href="#navs">3</a></li>
+          <li><a href="#navs">4</a></li>
+          <li><a href="#navs">5</a></li>
+          <li><a href="#navs">»</a></li>
+        </ul>
+
+        <ul class="pagination pagination-lg">
+          <li class="disabled"><a href="#navs">«</a></li>
+          <li class="active"><a href="#navs">1</a></li>
+          <li><a href="#navs">2</a></li>
+          <li><a href="#navs">3</a></li>
+          <li><a href="#navs">»</a></li>
+        </ul>
+
+        <ul class="pagination pagination-sm">
+          <li class="disabled"><a href="#navs">«</a></li>
+          <li class="active"><a href="#navs">1</a></li>
+          <li><a href="#navs">2</a></li>
+          <li><a href="#navs">3</a></li>
+          <li><a href="#navs">4</a></li>
+          <li><a href="#navs">5</a></li>
+          <li><a href="#navs">»</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h3>Pager</h3>
+
+        <ul class="pager">
+          <li><a href="#navs">Previous</a></li>
+          <li><a href="#navs">Next</a></li>
+        </ul>
+
+        <ul class="pager">
+          <li class="previous disabled"><a href="#navs">← Older</a></li>
+          <li class="next"><a href="#navs">Newer →</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
     <a name="indicators"></a>
     <div class="page-header">
       <h2>
         Indicators
       </h2>
     </div>
+
+      <div class="alert alert-success" role="alert">ALERT - this is green</div>
+      <div class="alert alert-info" role="alert">ALERT - this is blue</div>
+      <div class="alert alert-warning" role="alert">ALERT - this is yellow</div>
+      <div class="alert alert-danger" role="alert">ALERT - this is red</div>
+
+  <div class="row">
+    <div class="col-md-6">
+    <h2>Labels</h2>
+    <span class="label label-default">Default</span>
+      <span class="label label-primary">Primary</span>
+      <span class="label label-success">Success</span>
+      <span class="label label-info">Info</span>
+      <span class="label label-warning">Warning</span>
+      <span class="label label-danger">Danger</span>
+    </div>
+    <div class="col-md-6">
+    <h2>Badges</h2>
+      <a href="#">Inbox <span class="badge">42</span></a>
+
+      <button class="btn btn-primary" type="button">
+        Messages <span class="badge">4</span>
+      </button>
+    </div>
+  </div>
 
     <a name="progress-bars"></a>
     <div class="page-header">
@@ -731,12 +894,271 @@
       </h2>
     </div>
 
+<h2>Progress Bars</h2>
+<div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+    <span class="sr-only">40% Complete (success)</span>
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+    <span class="sr-only">20% Complete</span>
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+    <span class="sr-only">60% Complete (warning)</span>
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+    <span class="sr-only">80% Complete (danger)</span>
+  </div>
+</div>
+
+<h2>Striped</h2>
+<div class="progress">
+  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+    <span class="sr-only">40% Complete (success)</span>
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+    <span class="sr-only">20% Complete</span>
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+    <span class="sr-only">60% Complete (warning)</span>
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+    <span class="sr-only">80% Complete (danger)</span>
+  </div>
+</div>
+
+<h2>Animated</h2>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+    <span class="sr-only">45% Complete</span>
+  </div>
+</div>
+
+<h2>Stacked</h2>
+<div class="progress">
+  <div class="progress-bar progress-bar-success" style="width: 35%">
+    <span class="sr-only">35% Complete (success)</span>
+  </div>
+  <div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 20%">
+    <span class="sr-only">20% Complete (warning)</span>
+  </div>
+  <div class="progress-bar progress-bar-danger" style="width: 10%">
+    <span class="sr-only">10% Complete (danger)</span>
+  </div>
+</div>
+
+
+
     <a name="containers"></a>
     <div class="page-header">
       <h2>
         Containers
       </h2>
     </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="jumbotron">
+          <h1>Jumbotron</h1>
+          <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          <p><a href="http://getbootstrap.com/components/#jumbotron" class="btn btn-primary btn-lg">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h3>
+          List groups
+          <a href="http://getbootstrap.com/components/#list-group" target="_blank" class="btn btn-default btn-xs">
+            <i class="fa fa-question-circle"></i>
+          </a>
+        </h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <span class="badge">14</span>
+            Cras justo odio
+          </li>
+          <li class="list-group-item">
+            <span class="badge">2</span>
+            Dapibus ac facilisis in
+          </li>
+          <li class="list-group-item">
+            <span class="badge">1</span>
+            Morbi leo risus
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <div class="list-group">
+          <a href="#" class="list-group-item active">
+            Cras justo odio
+          </a>
+          <a href="#" class="list-group-item">Dapibus ac facilisis in
+          </a>
+          <a href="#" class="list-group-item">Morbi leo risus
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="list-group">
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">List group item heading</h4>
+            <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+          </a>
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">List group item heading</h4>
+            <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h3>
+          Panels
+          <a href="http://getbootstrap.com/components/#panels" target="_blank" class="btn btn-default btn-xs">
+            <i class="fa fa-question-circle"></i>
+          </a>
+        </h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            Basic panel
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">Panel heading</div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            Panel content
+          </div>
+          <div class="panel-footer">Panel footer</div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel primary</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel success</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel warning</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="panel panel-danger">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel danger</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel info</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h3>
+          Wells
+          <a href="http://getbootstrap.com/components/#wells" target="_blank" class="btn btn-default btn-xs">
+            <i class="fa fa-question-circle"></i>
+          </a>
+        </h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="well">
+          Look, I'm in a well!
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="well well-sm">
+          Look, I'm in a small well!
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="well well-lg">
+          Look, I'm in a large well!
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
 
     <hr>
 
